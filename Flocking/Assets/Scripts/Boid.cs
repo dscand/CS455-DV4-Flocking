@@ -74,6 +74,7 @@ public class Boid : Kinematic
 	protected override void Update()
 	{
 		steeringUpdate = myMoveType.getSteering();
+		steeringUpdate.linear.y = 0;
 		base.Update();
 	}
 }
