@@ -9,6 +9,7 @@ public class Seeker : Kinematic
     LookWhereGoing myFleeRotateType;
 
     public bool flee = false;
+    public GameObject myTarget;
 
     // Start is called before the first frame update
     void Start()

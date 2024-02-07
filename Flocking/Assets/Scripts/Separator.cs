@@ -21,11 +21,11 @@ public class Separator : Kinematic
 
         mySeparationRotateType = new LookWhereGoing();
         mySeparationRotateType.character = this;
-        mySeparationRotateType.target = myTarget;
+        //mySeparationRotateType.target = myTarget;
 
         myFleeRotateType = new LookWhereGoing();
         myFleeRotateType.character = this;
-        myFleeRotateType.target = myTarget;
+        //myFleeRotateType.target = myTarget;
     }
 
     // Update is called once per frame

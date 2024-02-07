@@ -6,6 +6,7 @@ public class Facer : Kinematic
 {
     //Seek myMoveType;
     Face mySeekRotateType;
+    public GameObject myTarget;
 
     // Start is called before the first frame update
     void Start()

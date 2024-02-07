@@ -6,6 +6,7 @@ public class Aligner : Kinematic
 {
     Pursue myMoveType;
     Align myPursueRotateType;
+    public GameObject myTarget;
 
     // Start is called before the first frame update
     void Start()

@@ -6,6 +6,7 @@ public class Arriver : Kinematic
 {
     Arrive myMoveType;
     Align myRotateType;
+    public GameObject myTarget;
 
     // Start is called before the first frame update
     void Start()
